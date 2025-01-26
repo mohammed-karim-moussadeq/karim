@@ -1,0 +1,62 @@
+/* Name: Mohammed Karim El Moussadeq
+    Assigment 1 Part 1 ( CSS ) */
+
+/* targeting each class on it's own and adjsting the margin which is for adjusting the space outside the element */
+
+.UniversityInfo div ol  {
+    text-align: right;
+    margin-top: 20px;
+}
+/* targeting the ordered lists inside of the address tag that is inside of the div that is inside the Student class.*/
+.Student div address ol {
+    margin-top: 10px;
+    margin-left: -25px;
+
+}
+/* targeting the h1 tag inside the paragraph1 class */
+.paragraph1 h1{
+    margin-left: 20px;
+}
+/* targeting the paragraph tag inside the paragraph1 class */
+.paragraph1 p{
+    margin-left: 20px;
+}
+/* targeting the div, h2 and the ul tags inside the paragraph2 class */
+
+.paragraph2 div, h2, ul {
+    margin-left: 10px;
+}
+/* targeting the paragraph tag inside the paragraph2 class */
+.paragraph2 p{
+    margin-left: 15px;
+}
+/* targeting the h2 tag inside the subject class */
+.subject h2 {
+    margin-left: 25px;
+}
+/* targetong the paragraph and the ordered lists of the subject class */
+.subject p, ol {
+    margin-left: 20px;
+}
+/* targeting the h2 of the exositc class */
+.exotic h2 {
+    margin-left: 15px;
+}
+/* targeting the div of the exositc class */
+.exotic div {
+    margin-left: -30px;
+}
+/* targeting the paragraph of the exositc class */
+.exotic p {
+    margin-left: 50px;
+}
+/* targeting the ol of the exositc class */
+.exotic ol {
+    margin-left: -20px;
+}
+/* targeting the div inside of the salutation class */
+.salutation div {
+    margin-left: 0px;
+}
+
+
