@@ -1,133 +1,146 @@
-<!--
-	Name: Mohammed Karim El moussadeq
-	File: index.html
-	Date: 14 January 2025
-	Assignemtn 1: mark up a letter that needs to be hosted on a university intranet. -->
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Main.css">
-        <title>Assigment 1 </title>
-    </head>
-    <body>
-        <!--Created a class to display university infomation with a ordered list inside of a address tag-->
-        <div class="UniversityInfo">
-            <div>
-                <address>
-                    <ol>
-                        <ol><strong>Dr.Eleanor Gaye</strong></ol>
-                        <ol><i>Awesome Science faculty</i></ol>
-                        <ol>University od Awesome</ol>
-                        <ol>Bobtown, CA 99999,</ol>
-                        <ol>USA</ol>
-                        <ol><strong>Tel</strong>: 123-456-7890</ol>
-                        <ol><strong> Email</strong>: no_reply@example.com</ol>
-                        <ol>20 January 2016</ol>
-                    </ol>
-                </address>
-            </div>
-        </div>
-        <!--Created a Student class to display student information with a ordered list inside of a address tag-->
-        <div class="Student">
-            <div>
-                <address>
-                    <ol>
-                        <ol><strong>Miss Eileen Dover</strong></ol>
-                        <ol>4321 Cliff Top Edge</ol>
-                        <ol>Dover, CT9 XXX</ol>
-                        <ol>UK</ol>
-                    </ol>
-                </address>
-            </div>
-        </div>
-        <!--Created a class for each paragraph to target each one alone-->
-        <div class="paragraph1">
-            <div>
-                <h1>Re: Eileen Dover university application</h1>
-                <p>Thank you for your recent application to join us at the University of Awesome's science faculty to study as part
-                    your PhD next year. I will answer your auestions one by one, in the following sections.
-                </p>
-            </div>
-        </div>
-        <div class="paragraph2">
-            <div>
-                <h2 >Starting Dates</h2>
-                <p>
-                    We are happy to accomodate you starting your study with us at any time, however it would suit us better if you could start at the begining of a semester; the start for each one are as follows:
-                </p>
-                <!-- a list to display the semester-->
-                <ul>
-                    <li>First semester: 9 September 2016 </li>
-                    <li>Second semester: 15 January 2017</li>
-                    <li>Third semester 2017</li>
-                </ul>
 
-            </div>
-            <div>
-                <p>Please let me know if this is ok, and if so which start date would prefer.</br>
-                <br>
-                You can find more information about <a href="http://127.0.0.1:5501/assigment1/index.html"> important university dates</a> on our website
-            </div>
-        </div>
-        <!-- created a class with a list and a paragraph to display the subjects of study-->
-        <div class="subject">
-            <h2>Subjects of study</h2>
-            <p>At the Awesome Science Faculty, we have a pretty open-minded research facility - as long as the subjects fall somehwere in the realm of science and technology. 
-                You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted ze were most intrigued 
-                by are as follows, in order of priority:
-            </p>
-            <ol>
-                <li> Turning H2O into wine, and the health benefits of Resverattol (C14H12O3).</li>
-                <li> Measuring the effect on performance of funk bassplayers at temperatures</li>
-                <li> HTML and CSS constructs for representing musical scores.</li>
-            </ol>
-            <p> So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think 
-                we'd need to know? Thanks.</p> 
-        </div>
-        <!--Created a class to display some activites to practice -->
-        <div class="exotic">
-            <h2>Exotic dance moves</h2>
-                <div>
-                    <p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dance are as follows, with definitions: <br></p>
-                    
-                </div>
-            
-                <ol>polynesian chickens dance</ol>
-                <p>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their lifestock 
-                    to be "fruitful".
-                </p>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mozilla splash page</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      /* header and body setup */
+
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background: url(pattern.png);
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+
+      /* Header styling */
+
+      header {
+        height: 150px;
+      }
+
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+
+      h1 {
+        font-size: 50px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+      }
+
+      /* main section and video styling */
+
+      main {
+        background: #ccc;
+      }
+
+      article {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      video {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+
+      /* further info links */
+
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #c13832;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+
+      .further-info a {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+
+      .further-info img {
         
-            
-                <ol>Icelandic brownian shuffle </ol>
-            <p>
-                before the Icelanders developed fire as a means of getting warm, they used to practice, which involved huddling close together in a circle on the floor, and shuffling their bodies around 
-                in imperceptibilty tiny, very rapid movements. One of my fellow students used to say that he tought this dance inspired modern styles such as twerking.
-            </p>
-            <ol>Arctic robot dance. </ol>
-            <p> 
-                An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterised by "robotic", stilted movements, being practiced 
-                by inhabitants
-                of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
-            </p>
-            <div>
-                <p>For more of my research, see <a href="http://127.0.0.1:5501/assigment1/index.html">exotic dance research page.</a> my exotic dance research page.</p>
-            </div>
-        </div>
-        <!--a class with a list inside of it to display the informations of who sent the letter-->
-        <div class="salutation">
-            <div>
-                <ol>Yours Sincerly,</ol> 
-                <ol>Dr Eleanor Gaye</ol> 
-                <ol> University of Awesome motto: "Be awesome to each other." -- The memoirs of Bill S Preston, Esq</ol> 
-            </div>
+        width: 25%;
+        display: block;
+        float: left;
+      }
 
+      .clearfix {
+        clear: both;
+      }
 
-        </div>
+      /* Red panda image */
 
+      .red-panda img {
+        display: block;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla</h1>
+      <!-- insert <img> element, link to the small
+          version of the Firefox logo -->
+          <img src="images/mozillaLogo.jpg" alt="">
 
-  
-    </body>
-    </html>
-    
+    </header>
+
+    <main>
+      <article>
+        <!-- insert iframe from youtube -->
+        <video width="320" height="240" controls>
+            <source src="video/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+        
+          Your browser does not support the video tag.
+        </video>
+        
+        <h2>Rocking the free web</h2>
+
+        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href="http://127.0.0.1:5500/index.html">Red panda picture</a> by Mathias Appel.</p>
+      </article>
+
+      <div class="further-info">
+        <!-- insert images with srcsets and sizes -->
+         <img src="images/firefox_logo-only_RGB.png" alt="">
+         <img src="images/mozilla-dinosaur-head.png" alt="">
+         <img src="images/firefox-addons.jpg" alt="">
+         <img src="images/mdn.svg" alt="">
+        
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="red-panda">
+        <!-- insert picture element -->
+        <img src="images/red-panda.jpg" 
+        alt="Red Panda">
+      </div>
+
+    </main>
+  </body>
+</html>
