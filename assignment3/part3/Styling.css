@@ -135,5 +135,6 @@ nav ul li {
     border-color: #a66; /* changed the border color */
     margin-top: 20px; /* added margin to the list */
     padding: 10px; /* added padding inside the items */
+    list-style-type: none; /*removed the bullet points*/
     
 }
