@@ -1,9 +1,9 @@
 /* Name; Mohammed Karim El Mousasdeq*/
 /*date: 04/04/2025*/
-
+// Select the paragraph element to display the ball count
 const para = document.querySelector('p');
 let count = 0;
-
+// Get the canvas and its 2D drawing 
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
@@ -22,7 +22,7 @@ function random(min,max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
-
+// class Shape containing  properties for Ball and EvilCircle
 class Shape {
 
   constructor(x, y, velX, velY) {
@@ -33,7 +33,7 @@ class Shape {
   }
 
 }
-
+// Ball class extends Shape and adds color, size, and existence status
 class Ball extends Shape {
 
   constructor(x, y, velX, velY, color, size) {
