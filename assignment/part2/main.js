@@ -1,3 +1,6 @@
+/* Name; Mohammed Karim El Mousasdeq*/
+/*date: 04/04/2025*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
