@@ -1,3 +1,6 @@
+/* Name; Mohammed Karim El Mousasdeq*/
+/*date: 04/04/2025*/
+
 const para = document.querySelector('p');
 let count = 0;
 
