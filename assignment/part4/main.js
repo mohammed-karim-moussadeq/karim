@@ -140,7 +140,7 @@ class EvilCircle extends Shape {
       this.y += this.size;
     }
   }
-
+ // Detect collision with other balls and change both colors on collision
   collisionDetect() {
     for (const ball of balls) {
       if (ball.exists) {
